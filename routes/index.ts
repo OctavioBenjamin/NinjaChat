@@ -1,5 +1,5 @@
-const express = require('express');
-const chatRoutes = require('./rotes/chatRoutes');
+import express from "express"
+import chatRoutes from "./chatRoute"
 
 const router = express.Router();
 
